@@ -159,7 +159,7 @@ body { font-family: 'Segoe UI', Inter, sans-serif; background: #F7F9FC; color: #
 .preco-inner { max-width: 480px; margin: 0 auto; text-align: center; }
 .preco-inner h2 { font-size: 34px; font-weight: 800; color: #0F2A44; letter-spacing: -1px; margin-bottom: 12px; }
 .preco-inner .sub { font-size: 17px; color: #64748B; margin-bottom: 12px; }
-.preco-card { background: linear-gradient(160deg, #fff, #F7FAFF); border: 2px solid #2563EB; border-radius: 24px; padding: 40px; margin-top: 24px; box-shadow: 0 24px 60px rgba(37,99,235,0.15); }
+.preco-card { display: flex; flex-direction: column; height: 100%; background: linear-gradient(160deg, #fff, #F7FAFF); border: 2px solid #2563EB; border-radius: 24px; padding: 40px; margin-top: 24px; box-shadow: 0 24px 60px rgba(37,99,235,0.15); }
 .preco-badge { display: inline-block; background: linear-gradient(90deg, #2563EB, #3B82F6); color: #fff; font-size: 11px; font-weight: 800; letter-spacing: 1px; border-radius: 20px; padding: 6px 16px; margin-bottom: 20px; text-transform: uppercase; }
 .preco-valor-wrap { display: flex; align-items: baseline; justify-content: center; gap: 12px; }
 .preco-valor { font-size: 58px; font-weight: 800; color: #0F2A44; letter-spacing: -2.5px; line-height: 1; }
@@ -169,7 +169,7 @@ body { font-family: 'Segoe UI', Inter, sans-serif; background: #F7F9FC; color: #
 .preco-items { display: flex; flex-direction: column; gap: 13px; margin-bottom: 28px; text-align: left; }
 .preco-item { display: flex; align-items: center; gap: 12px; font-size: 15px; color: #334155; font-weight: 500; }
 .preco-check { width: 20px; height: 20px; border-radius: 50%; background: rgba(22,163,74,0.12); color: #16A34A; font-weight: 800; flex-shrink: 0; font-size: 12px; display: flex; align-items: center; justify-content: center; }
-.preco-btn { width: 100%; background: linear-gradient(90deg, #2563EB, #3B82F6); color: #fff; border: none; border-radius: 14px; padding: 18px; font-size: 17px; font-weight: 800; cursor: pointer; margin-bottom: 16px; box-shadow: 0 10px 30px rgba(37,99,235,0.35); }
+.preco-btn { width: 100%; background: linear-gradient(90deg, #2563EB, #3B82F6); color: #fff; border: none; border-radius: 14px; padding: 18px; font-size: 17px; font-weight: 800; cursor: pointer; margin-top: auto; margin-bottom: 16px; box-shadow: 0 10px 30px rgba(37,99,235,0.35); }
 .preco-note { font-size: 13px; color: #94A3B8; }
 
 .ligas-section { padding: 80px 40px; background: #F7F9FC; text-align: center; }
@@ -489,7 +489,7 @@ body { font-family: 'Segoe UI', Inter, sans-serif; background: #F7F9FC; color: #
     </div>
 
     <!-- Cards lado a lado -->
-    <div class="preco-grid" style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:24px;margin-top:24px;align-items:start">
+    <div class="preco-grid" style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:24px;margin-top:24px;align-items:stretch">
 
       <!-- Card mensal -->
       <div class="preco-card" style="margin-top:0">
