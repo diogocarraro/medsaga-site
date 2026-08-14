@@ -464,13 +464,13 @@ body { font-family: 'Segoe UI', Inter, sans-serif; background: #F7F9FC; color: #
       <div class="saga-title">Saga das Águas</div>
       <div class="saga-meta">Multissistêmica · Todos os níveis · Ativa até 15 de setembro de 2026</div>
       <div class="saga-desc">A região fictícia de Vale do Sincorá enfrenta a maior enchente de sua história. Hospitais sobrecarregados, UBS em colapso, população desabrigada e sem acesso a medicamentos. Os casos clínicos durante esta Saga refletem esse cenário — de infecções por veiculação hídrica a pacientes crônicos sem acesso a tratamento, em qualquer especialidade.</div>
-      <button class="btn-primary" onclick="window.open('https://mpago.la/1KgxzPR','_blank')">Entrar na plataforma</button>
+      <button class="btn-primary" onclick="window.open('https://app.medsaga.com.br','_blank')">Entrar na plataforma</button>
     </div>
   </div>
 </section>
 
 <section class="preco-section" id="planos">
-  <div class="preco-inner" style="max-width:900px">
+  <div class="preco-inner" style="max-width:1100px">
     <div class="section-eyebrow">Planos</div>
     <h2>Simples. Sem surpresas.</h2>
     <p class="sub">Acesso completo a tudo que o MedSaga oferece.</p>
@@ -489,7 +489,7 @@ body { font-family: 'Segoe UI', Inter, sans-serif; background: #F7F9FC; color: #
     </div>
 
     <!-- Cards lado a lado -->
-    <div class="preco-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:24px;align-items:start">
+    <div class="preco-grid" style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:24px;margin-top:24px;align-items:start">
 
       <!-- Card mensal -->
       <div class="preco-card" style="margin-top:0">
@@ -498,21 +498,32 @@ body { font-family: 'Segoe UI', Inter, sans-serif; background: #F7F9FC; color: #
           <div class="preco-valor"><span>R$</span>24<span>,90</span></div>
         </div>
         <div class="preco-period">por mês · cancele quando quiser</div>
-        <button class="preco-btn" style="background:linear-gradient(90deg,#64748B,#94A3B8);box-shadow:0 10px 30px rgba(100,116,139,0.3)" onclick="window.open('https://mpago.la/1KgxzPR','_blank')">Assinar mensal</button>
+        <button class="preco-btn" style="background:linear-gradient(90deg,#64748B,#94A3B8);box-shadow:0 10px 30px rgba(100,116,139,0.3)" onclick="window.location.href='https://app.medsaga.com.br/assinar'">Começar agora</button>
         <div class="preco-note">7 dias grátis · R$24,90/mês após o período.</div>
       </div>
 
-      <!-- Card anual — destaque -->
-      <div class="preco-card" style="margin-top:0;border-color:#16A34A;box-shadow:0 24px 60px rgba(22,163,74,0.2);position:relative">
-        <div style="position:absolute;top:-14px;left:50%;transform:translateX(-50%);background:linear-gradient(90deg,#16A34A,#22C55E);color:#fff;font-size:11px;font-weight:800;padding:5px 16px;border-radius:20px;white-space:nowrap">⚡ Melhor valor · 2 meses grátis</div>
-        <div class="preco-badge" style="background:linear-gradient(90deg,#16A34A,#22C55E);margin-top:12px">Anual</div>
+      <!-- Card anual -->
+      <div class="preco-card" style="margin-top:0">
+        <div class="preco-badge" style="background:linear-gradient(90deg,#16A34A,#22C55E)">Anual</div>
         <div class="preco-valor-wrap">
           <span class="preco-riscado">R$24,90</span>
           <div class="preco-valor"><span>R$</span>19<span>,90</span></div>
         </div>
         <div class="preco-period">por mês · R$238,80/ano em 12x · economize 20%</div>
-        <button class="preco-btn" style="background:linear-gradient(90deg,#16A34A,#22C55E);box-shadow:0 10px 30px rgba(22,163,74,0.35)" onclick="window.open('https://mpago.la/1zbg9gw','_blank')">Assinar anual</button>
+        <button class="preco-btn" style="background:linear-gradient(90deg,#16A34A,#22C55E);box-shadow:0 10px 30px rgba(22,163,74,0.35)" onclick="window.location.href='https://app.medsaga.com.br/assinar'">Começar agora</button>
         <div class="preco-note">R$238,80 cobrado em 12x de R$19,90 · 7 dias grátis inclusos.</div>
+      </div>
+
+      <!-- Card anual à vista — destaque -->
+      <div class="preco-card" style="margin-top:0;border-color:#2563EB;box-shadow:0 24px 60px rgba(37,99,235,0.2);position:relative">
+        <div style="position:absolute;top:-14px;left:50%;transform:translateX(-50%);background:linear-gradient(90deg,#2563EB,#3B82F6);color:#fff;font-size:11px;font-weight:800;padding:5px 16px;border-radius:20px;white-space:nowrap">★ Recomendado</div>
+        <div class="preco-badge" style="background:linear-gradient(90deg,#2563EB,#3B82F6);margin-top:12px">Anual à Vista</div>
+        <div class="preco-valor-wrap">
+          <div class="preco-valor"><span>R$</span>199<span>,90</span></div>
+        </div>
+        <div class="preco-period">à vista · 1x por ano</div>
+        <button class="preco-btn" style="background:linear-gradient(90deg,#2563EB,#3B82F6);box-shadow:0 10px 30px rgba(37,99,235,0.35)" onclick="window.location.href='https://app.medsaga.com.br/assinar'">Começar agora</button>
+        <div class="preco-note">R$199,90 cobrado uma vez por ano · 7 dias grátis inclusos.</div>
       </div>
 
     </div>
